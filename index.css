@@ -1,0 +1,21 @@
+body, html{
+    height: 100%;
+}
+#center, #score{
+    display: flex;
+    justify-content: center;
+}
+
+canvas{
+    border: solid white;
+}
+h1{
+    color: white;
+}
+#background{
+    background-image: url("./back.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
